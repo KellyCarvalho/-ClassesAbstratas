@@ -30,7 +30,7 @@ public class Program {
 		int n =sc.nextInt();
 		
 		for(int i=0;i<n;i++) {
-			System.out.println("Qual a cor da  forma?");
+			System.out.println("Qual a cor da  forma? PRETO/AZUL/ROSA");
 			Color cor = Color.valueOf(sc.next());
 			System.out.println("Sua forma é retângulo ou círculo? r/c?");
 			char f = sc.next().charAt(0);
